@@ -4,7 +4,7 @@ ace.define("ace/theme/remixDark",["require","exports","module","ace/lib/dom"], f
   exports.isDark = true;
   exports.cssClass = "ace-remixDark";
   exports.cssText = ".ace-remixDark .ace_gutter {\
-  background: #2a2c3f;\
+  background: #141415;\
   color: #8789a1;\
   border-right: 1px solid #282828;\
   }\
