@@ -137,7 +137,7 @@ module.exports = {
       // compile (this will be using the version specified in the package.json)
       .openFile('contracts')
       .openFile('contracts/RemixRewardUpgradable.sol')
-      .verifyContracts(['Remix'])
+      .verifyContracts(['CodeBox'])
   }
 }
 

@@ -15,13 +15,13 @@ export function Web3ProviderDialog(props: web3ProviderDialogProps) {
   return (
     <>
       <div className="">
-        Note: To use Geth & https://remix.ethereum.org, configure it to allow requests from Remix:(see{' '}
+        Note: To use Geth & https://remix.ethereum.org, configure it to allow requests from CodeBox:(see{' '}
         <a href="https://geth.ethereum.org/docs/rpc/server" target="_blank" rel="noreferrer">
           Geth Docs on rpc server
         </a>
         )<div className="border p-1">geth --http --http.corsdomain https://remix.ethereum.org</div>
         <br />
-        To run Remix & a local Geth test node, use this command: (see{' '}
+        To run CodeBox & a local Geth test node, use this command: (see{' '}
         <a href="https://geth.ethereum.org/getting-started/dev-mode" target="_blank" rel="noreferrer">
           Geth Docs on Dev mode
         </a>
@@ -36,7 +36,7 @@ export function Web3ProviderDialog(props: web3ProviderDialogProps) {
         <br />
         For more info:{' '}
         <a href="https://remix-ide.readthedocs.io/en/latest/run.html#more-about-web3-provider" target="_blank" rel="noreferrer">
-          Remix Docs on Remix Provider
+          CodeBox Docs on CodeBox Provider
         </a>
         <br />
         <br />

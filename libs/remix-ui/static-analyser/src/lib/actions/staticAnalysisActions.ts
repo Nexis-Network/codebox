@@ -65,7 +65,7 @@ export async function run (lastCompilationResult, lastCompilationSource, current
         props.analysisModule.hints = []
         setHints([])
       }
-      // Remix Analysis
+      // CodeBox Analysis
       if (basicEnabled) {
         _paq.push(['trackEvent', 'solidityStaticAnalyzer', 'analyze', 'remixAnalyzer'])
         const results = runner.run(lastCompilationResult, categoryIndex)

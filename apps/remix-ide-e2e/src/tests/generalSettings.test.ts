@@ -162,7 +162,7 @@ module.exports = {
 
 const remixIdeThemes = {
   dark: {
-    primary: '#007aa6',
+    primary: '#1b1d1f',
     secondary: '#595c76',
     success: '#32ba89',
     info: '#086CB5',
@@ -170,10 +170,10 @@ const remixIdeThemes = {
     danger: '#b84040'
   },
   light: {
-    primary: '#007aa6',
+    primary: '#1b1d1f',
     secondary: '#b3bcc483',
     success: '#32ba89',
-    info: '#007aa6',
+    info: '#1b1d1f',
     warning: '#c97539',
     danger: '#b84040'
   },

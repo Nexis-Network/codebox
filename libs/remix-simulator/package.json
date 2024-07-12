@@ -1,7 +1,7 @@
 {
   "name": "@remix-project/remix-simulator",
   "version": "0.2.52",
-  "description": "Ethereum IDE and tools for the web",
+  "description": "Nexis Network IDE and tools for the web",
   "contributors": [
     {
       "name": "Iuri Matias",
@@ -64,7 +64,7 @@
     "type": "git",
     "url": "git+https://github.com/ethereum/remix-project.git"
   },
-  "author": "Remix Team",
+  "author": "CodeBox Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethereum/remix-project/issues"

@@ -15,7 +15,7 @@
   --white: #fff;
   --gray: #8B99A6;
   --gray-dark: #8694a1;
-  --primary: #007aa6;
+  --primary: #1b1d1f;
   --secondary: #0E2A3E;
   --success: #C4E07F;
   --info: #086CB5;
@@ -2153,12 +2153,12 @@ fieldset:disabled a.btn {
 }
 .btn-primary {
   color: #fff;
-  background-color: #007aa6;
-  border-color: #007aa6;
+  background-color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #005e80;
+  background-color: #0d0f10;
   border-color: #005573;
 }
 .btn-primary.focus,
@@ -2408,13 +2408,13 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(67, 68, 84, 0.5);
 }
 .btn-outline-primary {
-  color: #007aa6;
-  border-color: #007aa6;
+  color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #007aa6;
-  border-color: #007aa6;
+  background-color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
@@ -2422,15 +2422,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #007aa6;
+  color: #1b1d1f;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #007aa6;
-  border-color: #007aa6;
+  background-color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -2915,7 +2915,7 @@ input[type="submit"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3426,7 +3426,7 @@ input[type="submit"].btn-block {
 }
 .custom-file-input:focus ~ .custom-file-label {
   border-color: #27c6ff;
-  box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #007aa6;
+  box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #1b1d1f;
 }
 .custom-file-input:disabled ~ .custom-file-label {
   background-color: #282a3d;
@@ -3464,7 +3464,7 @@ input[type="submit"].btn-block {
   line-height: 1.25;
   color: #dfe1ea;
   content: "Browse";
-  background-color: #007aa6;
+  background-color: #1b1d1f;
   border-left: inherit;
   border-radius: 0 2px 2px 0;
 }
@@ -3497,7 +3497,7 @@ input[type="submit"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -3524,7 +3524,7 @@ input[type="submit"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -3554,7 +3554,7 @@ input[type="submit"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -3670,7 +3670,7 @@ input[type="submit"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
 }
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -4273,8 +4273,8 @@ input[type="submit"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007aa6;
-  border-color: #007aa6;
+  background-color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .page-item.disabled .page-link {
   color: #989ca4;
@@ -4344,7 +4344,7 @@ a.badge:hover {
 }
 .badge-primary {
   color: #fff;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
 }
 a.badge-primary:focus,
 a.badge-primary:hover {
@@ -4604,7 +4604,7 @@ a.badge-dark:focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007aa6;
+  background-color: #1b1d1f;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4689,8 +4689,8 @@ a.badge-dark:focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #007aa6;
-  border-color: #007aa6;
+  background-color: #1b1d1f;
+  border-color: #1b1d1f;
 }
 .list-group-horizontal {
   flex-direction: row;
@@ -5647,7 +5647,7 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 .bg-primary {
-  background-color: #007aa6 !important;
+  background-color: #1b1d1f !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
@@ -5758,7 +5758,7 @@ button.bg-dark:hover {
   border-left: 0 !important;
 }
 .border-primary {
-  border-color: #007aa6 !important;
+  border-color: #1b1d1f !important;
 }
 .border-secondary {
   border-color: var(--secondary) !important;
@@ -8555,7 +8555,7 @@ button.bg-dark:hover {
   color: #fff !important;
 }
 .text-primary {
-  color: #007aa6 !important;
+  color: #1b1d1f !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -8901,7 +8901,7 @@ div[data-id="remixIdeSidePanel"] {
   box-shadow: #03030fbd 0 6px 6px -6px inset!important;
 }
 
-/* Remix utils */
+/* CodeBox utils */
 .remix_ui_terminal_welcome {
   font-family: "Saira"!important;
   margin-left: -.25rem;

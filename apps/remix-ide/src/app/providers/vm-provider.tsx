@@ -47,9 +47,9 @@ export class MergeVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-paris',
-        displayName: 'Remix VM (Paris)',
+        displayName: 'CodeBox VM (Paris)',
         kind: 'provider',
-        description: 'Remix VM (Paris)',
+        description: 'CodeBox VM (Paris)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },
@@ -65,9 +65,9 @@ export class LondonVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-london',
-        displayName: 'Remix VM (London)',
+        displayName: 'CodeBox VM (London)',
         kind: 'provider',
-        description: 'Remix VM (London)',
+        description: 'CodeBox VM (London)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },
@@ -83,9 +83,9 @@ export class BerlinVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-berlin',
-        displayName: 'Remix VM (Berlin)',
+        displayName: 'CodeBox VM (Berlin)',
         kind: 'provider',
-        description: 'Remix VM (Berlin)',
+        description: 'CodeBox VM (Berlin)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },
@@ -101,9 +101,9 @@ export class ShanghaiVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-shanghai',
-        displayName: 'Remix VM (Shanghai)',
+        displayName: 'CodeBox VM (Shanghai)',
         kind: 'provider',
-        description: 'Remix VM (Shanghai)',
+        description: 'CodeBox VM (Shanghai)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },
@@ -119,9 +119,9 @@ export class CancunVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-cancun',
-        displayName: 'Remix VM (Cancun)',
+        displayName: 'CodeBox VM (Cancun)',
         kind: 'provider',
-        description: 'Remix VM (Cancun)',
+        description: 'CodeBox VM (Cancun)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },

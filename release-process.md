@@ -4,9 +4,9 @@ This document includes the release instructions for:
  - Feature freeze phase
  - Publishing `remixd` to NPM
  - Publishing remix libraries to NPM
- - Updating Remix's live version on remix.ethereum.org
- - Updating Remix's alpha version on remix-alpha.ethereum.org
- - Updating Remix's beta version on remix-beta.ethereum.org
+ - Updating CodeBox's live version on remix.ethereum.org
+ - Updating CodeBox's alpha version on remix-alpha.ethereum.org
+ - Updating CodeBox's beta version on remix-beta.ethereum.org
 
 ## Feature Freeze
 Once feature freeze is done, `remix_beta` should be updated latest to the master which will automatically update `remix-beta.ethereum.org` through a CI job.
@@ -29,9 +29,9 @@ Once ready to run, it can be run using the Node.js: `node build-qa-doc.js`
 
 Find out the latest release highlights and update in `releaseDetails.json` file along with the `version` string. Also, update release blog link under `moreLink` field. This will set latest release details in the slide of `Featured` section.
 
-## Remix Project NPM packages publishing
+## CodeBox Project NPM packages publishing
 
-Once testing is completed, release will start by publishing Remix NPM packages.
+Once testing is completed, release will start by publishing CodeBox NPM packages.
 
  - Make sure you are on `master` branch: `git checkout master`
  - Pull the latest: `git pull origin master`
@@ -53,7 +53,7 @@ Once these command run successfully, the version for each remix library will be 
 
  - Create and merge bump PR to master
  
-## Remix IDE Release
+## CodeBox IDE Release
 :point_right: Make sure release highlights and blog link are updated to show them on Home tab, Featured section.
 
 ### Part 1. Bump the version and update Beta
@@ -93,9 +93,9 @@ or individually:
 
 Publish a new release on GitHub using created tag and generate automated changelog by selecting the appropriate previous tag
 
-### Part 2. Update the Remix Live
+### Part 2. Update the CodeBox Live
 
-Updating the `remix_live` branch latest to the `remix_beta` runs the CircleCI build which updates liver version of Remix IDE on `remix.ethereum.org`
+Updating the `remix_live` branch latest to the `remix_beta` runs the CircleCI build which updates liver version of CodeBox IDE on `remix.ethereum.org`
 
 Use this unified command:
 
@@ -125,7 +125,7 @@ or individually:
  - Create and merge PR to `master`
  
  
-## Remix IDE Beta Release
+## CodeBox IDE Beta Release
  - git fetch origin master
  - git checkout origin/master
  - git checkout -b bumpVersion
@@ -139,6 +139,6 @@ or individually:
  - publish a beta release in github using the changelog
  - drop zip file to the beta release (from https://github.com/ethereum/remix-live-alpha)
  
-## Remix IDE Alpha Release
+## CodeBox IDE Alpha Release
 
 remix-alpha.ethereum.org is automatically updated every time a commit is pushed to `master` branch

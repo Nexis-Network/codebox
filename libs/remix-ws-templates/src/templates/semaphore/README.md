@@ -1,7 +1,7 @@
 
 ## CIRCOM ZKP SEMAPHORE WORKSPACE
 
-Welcome to the Remix Circom ZKP Semaphore Workspace.
+Welcome to the CodeBox Circom ZKP Semaphore Workspace.
 
 The workspace comprises two main directories:
 

@@ -127,7 +127,7 @@ export interface ASTInterface {
 }
 
 export interface CompiledContract {
-  /** The Ethereum Contract ABI. If empty, it is represented as an empty array. */
+  /** The Nexis Network Contract ABI. If empty, it is represented as an empty array. */
   abi: ABIDescription[]
   // See the Metadata Output documentation (serialised JSON string)
   metadata: string

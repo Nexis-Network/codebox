@@ -11,7 +11,7 @@ export default (
     label: `${app.name}`,
     submenu: [
       {
-        label: 'About Remix',
+        label: 'About CodeBox',
         click() {
           showAbout();
         }
@@ -21,7 +21,7 @@ export default (
       },
       {
         role: 'quit',
-        label: 'Quit Remix'
+        label: 'Quit CodeBox'
       }
     ]
   };

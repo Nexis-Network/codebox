@@ -8,9 +8,9 @@ export class SepoliaForkVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-sepolia-fork',
-        displayName: 'Sepolia fork - Remix VM (Cancun)',
+        displayName: 'Sepolia fork - CodeBox VM (Cancun)',
         kind: 'provider',
-        description: 'Remix VM (London)',
+        description: 'CodeBox VM (London)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },

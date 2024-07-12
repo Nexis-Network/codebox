@@ -12,7 +12,7 @@ const _paq = (window._paq = window._paq || [])
 
 const profile = {
   name: 'remixGuide',
-  displayName: 'Remix Guide',
+  displayName: 'CodeBox Guide',
   description: 'Learn remix with videos',
   location: 'mainPanel',
   events: []

@@ -81,9 +81,9 @@ const showAbout = () => {
 
 
   void dialog.showMessageBox({
-    title: `About Remix`,
-    message: `Remix`,
-    detail: `Remix`,
+    title: `About CodeBox`,
+    message: `CodeBox`,
+    detail: `CodeBox`,
     buttons: [],
   });
 };

@@ -5,7 +5,7 @@ const introJs = require('intro.js')
 const profile = {
   name: 'walkthrough',
   displayName: 'Walkthrough',
-  description: 'Remix walkthrough for beginner',
+  description: 'CodeBox walkthrough for beginner',
   version: packageJson.version,
   methods: ['start', 'startRecorderW']
 }
@@ -19,7 +19,7 @@ export class WalkthroughService extends Plugin {
     introJs().setOptions({
       steps: [{
         title: 'Transactions Recorder',
-        intro: 'Save transactions (deployed contracts and function executions) and replay them in another environment e.g Transactions created in Remix VM can be replayed in the Injected Provider.',
+        intro: 'Save transactions (deployed contracts and function executions) and replay them in another environment e.g Transactions created in CodeBox VM can be replayed in the Injected Provider.',
         element: document.querySelector('#udappRecorderCard'),
         tooltipClass: 'bg-light text-dark',
         position: 'right',
@@ -72,7 +72,7 @@ export class WalkthroughService extends Plugin {
     if (!localStorage.getItem('hadTour_initial')) {
       introJs().setOptions({
         steps: [{
-          title: 'Welcome to Remix IDE',
+          title: 'Welcome to CodeBox IDE',
           intro: 'Click to launch the Home tab that contains links, tips, and shortcuts..',
           element: document.querySelector('#verticalIconsHomeIcon'),
           tooltipClass: 'bg-light text-dark',

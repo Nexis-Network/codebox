@@ -12,6 +12,6 @@
   "location": "sidePanel",
   "documentation": "",
   "repo": "https://github.com/ethereum/remix-project/tree/master/apps/circuit-compiler",
-  "maintainedBy": "Remix",
+  "maintainedBy": "CodeBox",
   "authorContact": ""
 }

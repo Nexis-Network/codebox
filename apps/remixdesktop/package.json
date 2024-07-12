@@ -4,13 +4,13 @@
   "main": "build/main.js",
   "license": "MIT",
   "type": "commonjs",
-  "description": "Remix IDE Desktop",
+  "description": "CodeBox IDE Desktop",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bunsenstraat/remix-desktop.git"
   },
   "author": {
-    "name": "Remix Team",
+    "name": "CodeBox Team",
     "email": "remix@ethereum.org"
   },
   "bugs": {
@@ -61,7 +61,7 @@
     "@remix-project/remix-ws-templates": "^1.0.27"
   },
   "build": {
-    "productName": "Remix IDE",
+    "productName": "CodeBox IDE",
     "appId": "org.ethereum.remix-ide",
     "asar": true,
     "generateUpdatesFilesForAllChannels": true,
@@ -97,7 +97,7 @@
       "createDesktopShortcut": "always",
       "allowToChangeInstallationDirectory": true,
       "oneClick": false,
-      "shortcutName": "Remix IDE",
+      "shortcutName": "CodeBox IDE",
       "differentialPackage": false
     },
     "win": {

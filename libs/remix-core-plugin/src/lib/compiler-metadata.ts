@@ -80,7 +80,7 @@ export class CompilerMetadata extends Plugin {
     })
     const id = createHash('md5').update(Buffer.from(json)).digest().toString('hex')
     const buildFilename = this.joinPath(path, this.innerPath, 'build-info/' + id + '.json')
-    // If there are no file in buildInfoNames,it means compilation is running first time after loading Remix
+    // If there are no file in buildInfoNames,it means compilation is running first time after loading CodeBox
     if (!this.buildInfoNames[filePath]) {
       // Check the existing build-info and delete all the previous build files for compiled file
       await this.removeStoredBuildInfo(input, path, filePath)

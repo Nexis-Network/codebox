@@ -40,7 +40,7 @@ export function BasicTitle(props: BasicTitleProps) {
 
   return (
     <span id="ssaRemixtab">
-      Remix
+      CodeBox
       {props.ssaWarnings.length > 0 ? (
         !props.hideWarnings ? (
           !props.showLibsWarnings ? (

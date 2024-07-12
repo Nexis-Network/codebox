@@ -130,7 +130,7 @@ module.exports = {
       .useXpath()
       .waitForElementPresent('//*[@id="runTabView"]/div/div[2]/div[3]/div[1]/div/div[1]/div[4]/div/div[1]/input')
       .waitForElementPresent('//*[@id="runTabView"]/div/div[2]/div[3]/div[1]/div/div[1]/div[4]/div/div[2]/input')
-      .setValue('//*[@id="runTabView"]/div/div[2]/div[3]/div[1]/div/div[1]/div[4]/div/div[1]/input', 'Remix')
+      .setValue('//*[@id="runTabView"]/div/div[2]/div[3]/div[1]/div/div[1]/div[4]/div/div[1]/input', 'CodeBox')
       .setValue('//*[@id="runTabView"]/div/div[2]/div[3]/div[1]/div/div[1]/div[4]/div/div[2]/input', "R")
       .useCss()
       .setValue('[data-id="initializeInputs-initialOwner"]', '0x5B38Da6a701c568545dCfcB03FcB875f56beddC4')
@@ -154,7 +154,7 @@ module.exports = {
       })
       .clickInstance(1)
       .perform((done) => {
-        browser.testConstantFunction(lastProxyAddress, 'name - call', null, '0:\nstring: Remix').perform(() => {
+        browser.testConstantFunction(lastProxyAddress, 'name - call', null, '0:\nstring: CodeBox').perform(() => {
           done()
         })
       })

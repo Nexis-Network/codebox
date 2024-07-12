@@ -35,7 +35,7 @@ module.exports = {
   'Loads terminal': function (browser: NightwatchBrowser) {
     browser
       .waitForElementVisible('div[data-id="terminalCli"]', 10000)
-      .journalLastChildIncludes('Welcome to Remix')
+      .journalLastChildIncludes('Welcome to CodeBox')
   },
 
   'Toggles Side Panel': function (browser: NightwatchBrowser) {

@@ -36,7 +36,7 @@ module.exports = {
       .pause(2000)
       .waitForElementVisible('*[data-id="signMessageTextarea"]', 120000)
       .click('*[data-id="signMessageTextarea"]')
-      .setValue('*[data-id="signMessageTextarea"]', 'Remix is cool!')
+      .setValue('*[data-id="signMessageTextarea"]', 'CodeBox is cool!')
       .assert.not.elementPresent('*[data-id="settingsRemixRunSignMsgHash"]')
       .assert.not.elementPresent('*[data-id="settingsRemixRunSignMsgSignature"]')
       .pause(2000)

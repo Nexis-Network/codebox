@@ -2,7 +2,7 @@
   
 ## What's RLN?
 
- Welcome to the Remix Circom ZKP RLN Workspace.
+ Welcome to the CodeBox Circom ZKP RLN Workspace.
 
 RLN is a zero-knowledge gadget that enables spam prevention in anonymous environments.
 To learn more on RLN and how it works - check out [documentation](https://rate-limiting-nullifier.github.io/rln-docs/).

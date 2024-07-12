@@ -200,7 +200,7 @@ const loadPinnedContracts = async (plugin, dispatch, dirName) => {
 }
 
 const migrateSavedContracts = async (plugin) => {
-  // Move contract saved in localstorage to Remix FE
+  // Move contract saved in localstorage to CodeBox FE
   const allSavedContracts = localStorage.getItem('savedContracts')
   if (allSavedContracts) {
     const savedContracts = JSON.parse(allSavedContracts)

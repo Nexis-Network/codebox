@@ -112,12 +112,12 @@ const tests = {
       })      
   },
 
-  'Should connect to Ethereum Main Network using MetaMask #group1': function (browser: NightwatchBrowser) {
+  'Should connect to Nexis Network Main Network using MetaMask #group1': function (browser: NightwatchBrowser) {
     if (!checkBrowserIsChrome(browser)) return
     browser.waitForElementPresent('*[data-id="remixIdeSidePanel"]')
       .switchBrowserTab(1)
       .click('[data-testid="network-display"]')
-      .click('div[data-testid="Ethereum Mainnet"]') // switch to mainnet
+      .click('div[data-testid="Nexis Network Mainnet"]') // switch to mainnet
       .useCss().switchBrowserTab(0)
       .refreshPage()
       .waitForElementVisible('*[data-id="remixIdeIconPanel"]', 10000)
@@ -128,7 +128,7 @@ const tests = {
       .assert.containsText('*[data-id="settingsNetworkEnv"]', 'Main (1) network')
   },
 
-  'Should deploy contract on Ethereum Main Network using MetaMask #group1': function (browser: NightwatchBrowser) {
+  'Should deploy contract on Nexis Network Main Network using MetaMask #group1': function (browser: NightwatchBrowser) {
     if (!checkBrowserIsChrome(browser)) return
     browser.waitForElementPresent('*[data-id="runTabSelectAccount"] option')
       .clickLaunchIcon('filePanel')

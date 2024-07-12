@@ -17,7 +17,7 @@ export function methods () {
 }
 
 export function web3_clientVersion (payload, cb) {
-  cb(null, 'Remix Simulator/' + version)
+  cb(null, 'CodeBox Simulator/' + version)
 }
 
 export function eth_protocolVersion (payload, cb) {

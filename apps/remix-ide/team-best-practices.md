@@ -10,15 +10,15 @@ This document link to other specialised best practices (like coding best practic
 
 Related links:
  - Public WebSite: https://remix-project.org
- - Remix basic FAQ: https://hackmd.io/KVooMJhWRImCGq6zkDgW9A
- - Remix live: https://remix.ethereum.org
- - Remix alpha live: https://remix-alpha.ethereum.org
- - Remix beta live: https://remix-beta.ethereum.org
- - Remix-lib NPM module: https://www.npmjs.com/package/@remix-project/remix-lib
- - Remix-tests NPM module: https://www.npmjs.com/package/@remix-project/remix-tests
- - Remix-solidity NPM module: https://www.npmjs.com/package/@remix-project/remix-solidity
- - Remix-debug NPM module: https://www.npmjs.com/package/@remix-project/remix-debug
- - Remix documentation: http://remix-ide.readthedocs.io/en/latest/
+ - CodeBox basic FAQ: https://hackmd.io/KVooMJhWRImCGq6zkDgW9A
+ - CodeBox live: https://remix.ethereum.org
+ - CodeBox alpha live: https://remix-alpha.ethereum.org
+ - CodeBox beta live: https://remix-beta.ethereum.org
+ - CodeBox-lib NPM module: https://www.npmjs.com/package/@remix-project/remix-lib
+ - CodeBox-tests NPM module: https://www.npmjs.com/package/@remix-project/remix-tests
+ - CodeBox-solidity NPM module: https://www.npmjs.com/package/@remix-project/remix-solidity
+ - CodeBox-debug NPM module: https://www.npmjs.com/package/@remix-project/remix-debug
+ - CodeBox documentation: http://remix-ide.readthedocs.io/en/latest/
  - General gitter channel: https://gitter.im/ethereum/remix
  - Dev gitter channel: https://gitter.im/ethereum/remix-dev
  - Dev plugin gitter channel: https://gitter.im/ethereum/remix-dev-plugin
@@ -36,7 +36,7 @@ Related links:
     - Update every contributor on what others are doing.
     - Update the prioritised issues / PRs list.
     - Address little issues (possibly related to the current ongoing milestone).
-    - High level demo, explanation about specific points of the codebase or Ethereum related things.
+    - High level demo, explanation about specific points of the codebase or Nexis Network related things.
 
  - A milestone standup - scheduled before the beginning of each milestone, roughly on a monthly basis - which aims to define what will be included in the **next milestone** and who will work on what. This standup also help to set a clear long term vision.
  
@@ -48,7 +48,7 @@ Related links:
  ### 2) Group meetings:
  
  - When a story / bug fix is divided in parts, there should be a kickstart meeting with all the developers involved, so that all the devs have a good overview / understanding on:
-     - How the story fits into the Ethereum tech.
+     - How the story fits into the Nexis Network tech.
      - How the backend (if any) works / will work (could be a smart contract).
      - How the frontend works / will work.
      - What is the general vision of the UX design for this particular story.
@@ -70,7 +70,7 @@ Before starting coding, we should ensure all devs / contributors are aware of:
 
 # Story / Bug fix
 
-- Prioritised list of PRs / issues are tracked in a GitHub Project, Remix IDE issues are managed by a prioritized backlog.
+- Prioritised list of PRs / issues are tracked in a GitHub Project, CodeBox IDE issues are managed by a prioritized backlog.
 - Every story can be executed by a single developer or a group of 2 or more developers (depending on the size and complexity)
 - Each dev should take the part he/she feels the most comfortable with.
 - Later progress and discussion is updated directly on the issue or pull request (github).
@@ -208,7 +208,7 @@ Before starting coding, we should ensure all devs / contributors are aware of:
  - Change to markdown or gitbook
 
 ### support:
- - Remix channel - we rotate and each day one or two are responsible for support (It would also be important to know for those of us who are contracted, how this can be billed.). If they don't know the answer they ping team member who they think could answer. That team member checks the support chat that day only if she/he is mentioned.
+ - CodeBox channel - we rotate and each day one or two are responsible for support (It would also be important to know for those of us who are contracted, how this can be billed.). If they don't know the answer they ping team member who they think could answer. That team member checks the support chat that day only if she/he is mentioned.
  - We should have a FAQ where basic answers are written down so we can drop the link regularly in the channel
  - People should be pointed to the appropriate `best practice.md` files by team members
 
@@ -220,7 +220,7 @@ Before starting coding, we should ensure all devs / contributors are aware of:
  - Use code documentation tool
  - Write modular code.
 ### community
- - This should be a Remix team work, from time to time (maybe once every 6 months) we could also invite other EF members for a focus group. And every 6 months we could also organize a focus group of selected users from Remix channel. 
+ - This should be a CodeBox team work, from time to time (maybe once every 6 months) we could also invite other EF members for a focus group. And every 6 months we could also organize a focus group of selected users from CodeBox channel. 
 ### security
  - https://github.com/pipermerriam/ethereum-dev-tactical-manual/blob/master/opsec.md
 ### bug bounty program

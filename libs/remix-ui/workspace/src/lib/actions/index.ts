@@ -278,10 +278,10 @@ export const publishToGist = async (path?: string) => {
     const accessToken = config.get('settings/gist-access-token')
 
     if (!accessToken) {
-      dispatch(displayNotification('Authorize Token', 'Remix requires an access token (which includes gists creation permission). Please go to the settings tab to create one.', 'Close', null, () => { }))
+      dispatch(displayNotification('Authorize Token', 'CodeBox requires an access token (which includes gists creation permission). Please go to the settings tab to create one.', 'Close', null, () => { }))
     } else {
       const params = queryParams.get() as SolidityConfiguration
-      const description = 'Created using remix-ide: Realtime Ethereum Contract Compiler and Runtime. \n Load this file by pasting this gists URL or ID at https://remix.ethereum.org/#version=' +
+      const description = 'Created using remix-ide: Realtime Nexis Network Contract Compiler and Runtime. \n Load this file by pasting this gists URL or ID at https://remix.ethereum.org/#version=' +
         params.version + '&optimize=' + params.optimize + '&runs=' + params.runs + '&gist='
       const gists = new Gists({ token: accessToken })
 
@@ -490,7 +490,7 @@ export const handleDownloadFiles = async () => {
     plugin.call('notification', 'toast', 'preparing files for download, please wait..')
     const zip = new JSZip()
 
-    zip.file("readme.txt", "This is a Remix backup file.\nThis zip should be used by the restore backup tool in Remix.\nThe .workspaces directory contains your workspaces.")
+    zip.file("readme.txt", "This is a CodeBox backup file.\nThis zip should be used by the restore backup tool in CodeBox.\nThe .workspaces directory contains your workspaces.")
     const browserProvider = plugin.fileManager.getProvider('browser')
 
     await browserProvider.copyFolderToJson('/', ({ path, content }) => {

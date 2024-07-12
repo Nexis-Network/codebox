@@ -129,8 +129,8 @@ export const listenOnProviderEvents = (provider) => (reducerDispatch: React.Disp
       if (showAlert){
         dispatch(displayNotification(
           path + ' changed',
-          'This file has been changed outside of Remix IDE.',
-          'Replace by the new content', 'Keep the content displayed in Remix',
+          'This file has been changed outside of CodeBox IDE.',
+          'Replace by the new content', 'Keep the content displayed in CodeBox',
           () => {
             editor.setText(path, content)
           }

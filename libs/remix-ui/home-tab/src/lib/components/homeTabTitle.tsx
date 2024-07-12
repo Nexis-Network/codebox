@@ -101,7 +101,7 @@ function HomeTabTitle() {
       <div className="d-flex py-2 justify-content-between">
         <div className="d-flex justify-content-start">
           <span className="h-80 text-uppercase" style={{ fontSize: 'xx-large', fontFamily: 'Noah, sans-serif' }}>
-            Remix
+            CodeBox
           </span>
           <div className="ml-2 d-flex">
             <div onClick={() => playRemi()}>
@@ -147,14 +147,14 @@ function HomeTabTitle() {
         >
           <FormattedMessage id="home.documentation" />
         </a> */}
-        <a
+        {/* <a
           className="pl-2 remixui_home_text"
           onClick={() => _paq.push(['trackEvent', 'hometab', 'header', 'remixDesktop'])}
           target="__blank"
           href="https://github.com/remix-project-org/remix-desktop-insiders"
         >
           <FormattedMessage id="home.remixDesktop" />
-        </a>
+        </a> */}
       </div>
       <div className="d-flex pb-1 align-items-center">
         <input

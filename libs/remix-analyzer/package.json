@@ -36,7 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "Remix Team",
+  "author": "CodeBox Team",
   "license": "MIT",
   "homepage": "https://github.com/ethereum/remix-project/tree/master/libs/remix-analyzer#readme",
   "devDependencies": {

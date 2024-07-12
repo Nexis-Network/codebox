@@ -6,7 +6,7 @@ const TerminalWelcomeMessage = ({ packageJson, storage }) => {
     <div className="remix_ui_terminal_block px-4 " data-id="block_null">
       <div className="remix_ui_terminal_welcome">
         {' '}
-        <FormattedMessage id="terminal.welcomeText1" /> Remix {packageJson}{' '}
+        <FormattedMessage id="terminal.welcomeText1" /> CodeBox {packageJson}{' '}
       </div>
       <br />
       <div className="">

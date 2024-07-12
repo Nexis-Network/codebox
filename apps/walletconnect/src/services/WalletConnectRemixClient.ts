@@ -121,7 +121,7 @@ export class WalletConnectRemixClient extends PluginClient {
         }
       }
     } else {
-      const err = `Cannot make ${data.method} request. Remix client is not connected to walletconnect client`
+      const err = `Cannot make ${data.method} request. CodeBox client is not connected to walletconnect client`
       console.error(err)
       return { jsonrpc: '2.0', error: { message: err, code: -32603 }, id: data.id }
     }

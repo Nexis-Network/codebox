@@ -2,7 +2,7 @@
   "name": "remix-project",
   "version": "0.52.0-dev",
   "license": "MIT",
-  "description": "Ethereum Remix Monorepo",
+  "description": "Nexis Network CodeBox Monorepo",
   "main": "index.js",
   "defaultVersion": "soljson-v0.8.26+commit.8a97fa7a.js",
   "keywords": [

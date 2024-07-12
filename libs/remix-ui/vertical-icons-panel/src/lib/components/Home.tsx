@@ -10,7 +10,7 @@ function Home({ verticalIconPlugin }: HomeProps) {
   return (
     <CustomTooltip placement="right" tooltipText={<FormattedMessage id='home.home' />}>
       <div
-        className="mt-2 my-1 remixui_homeIcon"
+        className="mt-2 my-1 ml-2"
         onClick={async () => await verticalIconPlugin.activateHome()}
         {...{ plugin: 'home' }}
         data-id="verticalIconsHomeIcon"

@@ -8,7 +8,7 @@ declare global {
 
 const testData = {
   pluginName: 'remixIde',
-  pluginDisplayName: 'Remix IDE',
+  pluginDisplayName: 'CodeBox IDE',
   pluginUrl: 'https://zokrates.github.io/zokrates-remix-plugin/'
 }
 

@@ -1,11 +1,11 @@
 # vyper-remix
-Vyper Plugin for Remix IDE.
+Vyper Plugin for CodeBox IDE.
 
 
 ## How to get started
 ### Remote plugin
 This plugin is hosted at https://vyper.remixproject.org .
-To use it, open the plugin manager in Remix and click the `Activate` button in front of the `Vyper` button in the plugin section.
+To use it, open the plugin manager in CodeBox and click the `Activate` button in front of the `Vyper` button in the plugin section.
 
 ### Local plugin
 You can host this plugin in your local environment.
@@ -27,7 +27,7 @@ You can host this plugin in your local environment.
 
 
 ## Load example contracts
-It is possible to clone the Vyper repository in Remix in order to use example contracts. Click on `Clone Vyper Repository`.
+It is possible to clone the Vyper repository in CodeBox in order to use example contracts. Click on `Clone Vyper Repository`.
 Once it is cloned, you will find the contract in the `examples` folder.
 
 ### Local Vyper Compiler

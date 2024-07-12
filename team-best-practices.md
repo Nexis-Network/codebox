@@ -2,24 +2,24 @@
 # Team best practices
 
 This document aims to address contributors best practices of the following repositories:
- - Remix Project: https://github.com/ethereum/remix-project
- - Remix Libraries: https://github.com/ethereum/remix-project/tree/master/libs
+ - CodeBox Project: https://github.com/ethereum/remix-project
+ - CodeBox Libraries: https://github.com/ethereum/remix-project/tree/master/libs
 
 This document is not in its final version, **a team meeting which aim to address new/old best practices, feedback, workflows, all kind of issues related to how the team work together occurs every 2 weeks.**
 This document link to other specialised best practices (like coding best practices).
 
 Related links:
  - Public Website: https://remix-project.org
- - Awesome Remix: https://github.com/ethereum/awesome-remix
- - Remix basic FAQ: https://hackmd.io/KVooMJhWRImCGq6zkDgW9A
- - Remix live: https://remix.ethereum.org
- - Remix alpha live: https://remix-alpha.ethereum.org
- - Remix beta live: https://remix-beta.ethereum.org
- - Remix-lib NPM module: https://www.npmjs.com/package/@remix-project/remix-lib
- - Remix-solidity NPM module: https://www.npmjs.com/package/@remix-project/remix-solidity
- - Remix-debug NPM module: https://www.npmjs.com/package/@remix-project/remix-debug
- - Remix-tests NPM module: https://www.npmjs.com/package/@remix-project/remix-tests
- - Remix documentation: http://remix-ide.readthedocs.io/en/latest/
+ - Awesome CodeBox: https://github.com/ethereum/awesome-remix
+ - CodeBox basic FAQ: https://hackmd.io/KVooMJhWRImCGq6zkDgW9A
+ - CodeBox live: https://remix.ethereum.org
+ - CodeBox alpha live: https://remix-alpha.ethereum.org
+ - CodeBox beta live: https://remix-beta.ethereum.org
+ - CodeBox-lib NPM module: https://www.npmjs.com/package/@remix-project/remix-lib
+ - CodeBox-solidity NPM module: https://www.npmjs.com/package/@remix-project/remix-solidity
+ - CodeBox-debug NPM module: https://www.npmjs.com/package/@remix-project/remix-debug
+ - CodeBox-tests NPM module: https://www.npmjs.com/package/@remix-project/remix-tests
+ - CodeBox documentation: http://remix-ide.readthedocs.io/en/latest/
  - Discord: https://discord.gg/mh9hFCKkEq
  
 ---
@@ -34,7 +34,7 @@ Related links:
     - Update every contributor on what others are doing.
     - Update the prioritised issues / PRs list.
     - Address little issues (possibly related to the current ongoing milestone).
-    - High level demo, explanation about specific points of the codebase or Ethereum related things.
+    - High level demo, explanation about specific points of the codebase or Nexis Network related things.
 
  - A milestone standup - scheduled before the beginning of each milestone, roughly on a monthly basis - which aim to define what will be included in the **next milestone** and who will work on what. This standup also help to set a clear long term vision.
  
@@ -46,7 +46,7 @@ Related links:
  ### 2) Group meetings:
  
  - When a story / bug fix is divided in parts, there should be a kickstart meeting with all the developers involved, so that all the devs have a good overview / understanding on:
-     - How the story fits into the Ethereum tech.
+     - How the story fits into the Nexis Network tech.
      - How the backend (if any) works / will work (could be a smart contract).
      - How the frontend works / will work.
      - What is the general vision of the UX design for this particular story.
@@ -68,7 +68,7 @@ Before starting coding, we should ensure all devs / contributors are aware of:
 
 # Story / Bug fix
 
-- Prioritised list of PRs / issues are tracked in a GitHub Project, Remix IDE issues are managed by a prioritized backlog.
+- Prioritised list of PRs / issues are tracked in a GitHub Project, CodeBox IDE issues are managed by a prioritized backlog.
 - Every story can be executed by a single developer or a group of 2 or more developers (depending on the size and complexity)
 - Each dev should take the part he/she feels the most comfortable with.
 - Later progress and discussion is updated directly on the issue or pull request (github).

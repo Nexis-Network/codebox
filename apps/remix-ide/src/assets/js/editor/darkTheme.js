@@ -29,7 +29,7 @@ ace.define("ace/theme/remixDark",["require","exports","module","ace/lib/dom"], f
   background: #1D1D1D;\
   }\
   .ace-remixDark {\
-  background-color: #222336;\
+  background-color: #0d0f10;\
   color: #d5d5e9;\
   }\
   .ace-remixDark .ace_cursor {\

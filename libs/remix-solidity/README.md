@@ -1,4 +1,4 @@
-## Remix-Solidity
+## CodeBox-Solidity
 [![npm version](https://badge.fury.io/js/%40remix-project%2Fremix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
 [![npm](https://img.shields.io/npm/dt/@remix-project/remix-solidity.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-solidity)
 [![npm](https://img.shields.io/npm/dw/@remix-project/remix-solidity.svg)](https://www.npmjs.com/package/@remix-project/remix-solidity)
@@ -6,7 +6,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ethereum/remix-project/issues)
 
 
-`@remix-project/remix-solidity` is a tool to load and run solidity compiler. It works underneath Remix IDE  "Solidity Compiler" plugin which is used to load different versions of compiler and compile the smart contracts. 
+`@remix-project/remix-solidity` is a tool to load and run solidity compiler. It works underneath CodeBox IDE  "Solidity Compiler" plugin which is used to load different versions of compiler and compile the smart contracts. 
 
 ### Installation
 
@@ -138,4 +138,4 @@ Please feel free to open an issue or a pull request.
 In case you want to add some code, do have a look to our contribution guidelnes [here](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on [Gitter](https://gitter.im/ethereum/remix) in case of any queries.   
 
 ### License
-MIT © 2018-21 Remix Team
+MIT © 2018-21 CodeBox Team

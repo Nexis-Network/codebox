@@ -189,7 +189,7 @@ const themeCollection = [
     shapeColor: '#adafae', fillColor: '#222222'
   },
   {
-    themeName: 'Dark', backgroundColor: '#222336', textColor: '#babbcc',
+    themeName: 'Dark', backgroundColor: '#0d0f10', textColor: '#babbcc',
     shapeColor: '#babbcc', fillColor: '#141415'
   },
   {

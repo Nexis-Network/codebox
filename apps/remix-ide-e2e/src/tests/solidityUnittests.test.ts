@@ -476,7 +476,7 @@ const sources = [
       pragma solidity >=0.4.22 <0.9.0;
       pragma experimental ABIEncoderV2;
 
-      import "remix_tests.sol"; // this import is automatically injected by Remix.
+      import "remix_tests.sol"; // this import is automatically injected by CodeBox.
       import "remix_accounts.sol";
       import "../ks2a.sol";
 
@@ -568,7 +568,7 @@ const sources = [
       content: `// SPDX-License-Identifier: GPL-3.0
 
       pragma solidity >=0.7.0 <0.9.0;
-      import "remix_tests.sol"; // this import is automatically injected by Remix.
+      import "remix_tests.sol"; // this import is automatically injected by CodeBox.
       import "../contracts/3_Ballot.sol";
 
       contract BallotTest {
@@ -604,7 +604,7 @@ const sources = [
       content: `// SPDX-License-Identifier: GPL-3.0
 
       pragma solidity >=0.7.0 <0.9.0;
-      import "remix_tests.sol"; // this import is automatically injected by Remix.
+      import "remix_tests.sol"; // this import is automatically injected by CodeBox.
       import "../contracts/3_Ballot.sol";
 
       import "hardhat/console.sol";
@@ -629,7 +629,7 @@ const sources = [
       content: `// SPDX-License-Identifier: GPL-3.0
 
       pragma solidity >=0.7.0 <0.9.0;
-      import "remix_tests.sol"; // this import is automatically injected by Remix.
+      import "remix_tests.sol"; // this import is automatically injected by CodeBox.
       import "hardhat/console.sol";
 
       contract hhLogs {

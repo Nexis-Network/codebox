@@ -1,9 +1,9 @@
 # Contributing
 
-Everyone is very welcome to contribute on the codebase of Remix. Please join our [Discord](https://discord.gg/mh9hFCKkEq) in case of any queries.
+Everyone is very welcome to contribute on the codebase of CodeBox. Please join our [Discord](https://discord.gg/mh9hFCKkEq) in case of any queries.
 
 ## Development
-Remix libraries work closely with [Remix IDE](https://remix.ethereum.org). Each library has a readme to explain its application.
+CodeBox libraries work closely with [CodeBox IDE](https://remix.ethereum.org). Each library has a readme to explain its application.
 
 When you add a code in any library, please ensure you add related unit tests.
 
@@ -15,7 +15,7 @@ Please conform to [standard](https://standardjs.com/) for code styles.
 Please follow GitHub's standard model of making changes & submitting pull request which is very well explained [here](https://guides.github.com/activities/forking/). Make sure your code works fine locally before submitting a pull request.
 
 ## Internationalization
-Remix now supports Internationalization. Everyone is welcome to contribute to this feature.
+CodeBox now supports Internationalization. Everyone is welcome to contribute to this feature.
 
 ### How to make a string support intl?
 First, put the string in the locale file located under `apps/remix-ide/src/app/tabs/locales/en`.
@@ -104,10 +104,10 @@ If you update an old json file, then you don't need to update it in other langua
 But if you add a new json file, only English is needed.
 
 ### How to contribute on translations?
-Remix is using crowdin to manage translations. If you want to contribute on that, you can do it on crowdin. Check the link below. 
+CodeBox is using crowdin to manage translations. If you want to contribute on that, you can do it on crowdin. Check the link below. 
 
 https://crowdin.com/project/remix-translation
 
-There are many languages, just get into your language, and you will see a folder named `Remix UI`, where you can do the translations. 
+There are many languages, just get into your language, and you will see a folder named `CodeBox UI`, where you can do the translations. 
 
 Not only you can do the translations, you can also review it. If you agree or disagree with some translations, you can vote YES or NO. If you vote NO, you can comment to explain why you vote NO, and give your translation.

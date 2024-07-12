@@ -62,7 +62,7 @@ export const sindriScripts = async (plugin: any) => {
           .map(([path, content]) => ({
             content,
             hasMainComponent: !!/^[ \t\f]*component[ \t\f]+main[^\n\r]*;[ \t\f]*$/m.test(content),
-            // These files are the entrypoints to the Remix Circom templates, so we give them a boost if there are multiple main components.
+            // These files are the entrypoints to the CodeBox Circom templates, so we give them a boost if there are multiple main components.
             isTemplateEntrypoint: !!['calculate_hash.circom', 'rln.circom', 'semaphore.circom'].includes(path.split('/').pop() ?? ''),
             path,
           }))

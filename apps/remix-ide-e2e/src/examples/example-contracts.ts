@@ -282,7 +282,7 @@ contract Ballot {
 }`
 
 const ballotTest = `pragma solidity >=0.4.22 <0.9.0;
-import "remix_tests.sol"; // this import is automatically injected by Remix.
+import "remix_tests.sol"; // this import is automatically injected by CodeBox.
 import "../3_Ballot.sol";
 
 contract BallotTest {

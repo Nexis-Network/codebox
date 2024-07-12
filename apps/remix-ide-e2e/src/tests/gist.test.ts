@@ -40,7 +40,7 @@ module.exports = {
       .waitForElementVisible(`[data-id="treeViewLitreeViewItemREADME.txt"]`)
 
       //.openFile(`README.txt`)
-      // Remix publish to gist
+      // CodeBox publish to gist
       /* .click('*[data-id="fileExplorerNewFilepublishToGist"]')
          .pause(2000)
          .waitForElementVisible('*[data-id="default_workspaceModalDialogContainer-react"]')
@@ -118,7 +118,7 @@ module.exports = {
       .perform((done) => {
         browser.getText('[data-id="fileSystemModalDialogModalBody-react"]', (result) => {
           console.log('result.value: ', result.value)
-          browser.assert.ok(result.value === 'Remix requires an access token (which includes gists creation permission). Please go to the settings tab to create one.', 'Assert failed. Gist token error message not displayed.')
+          browser.assert.ok(result.value === 'CodeBox requires an access token (which includes gists creation permission). Please go to the settings tab to create one.', 'Assert failed. Gist token error message not displayed.')
           done()
         })
       })

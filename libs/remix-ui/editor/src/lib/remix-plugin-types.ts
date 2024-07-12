@@ -176,7 +176,7 @@ declare interface CompilationSource {
 }
 
 declare interface CompiledContract {
-    /** The Ethereum Contract ABI. If empty, it is represented as an empty array. */
+    /** The Nexis Network Contract ABI. If empty, it is represented as an empty array. */
     abi: ABIDescription[]
     // See the Metadata Output documentation (serialised JSON string)
     metadata: string
@@ -249,7 +249,7 @@ declare interface customAction {
 
 declare type customActionType = 'file' | 'folder'
 
-/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+/** @deprecated: current version in CodeBox IDE. To improve to match standard JSON RPC methods */
 declare interface CustomNetwork {
     id?: string
     name: string
@@ -485,7 +485,7 @@ declare interface IFileSystem {
     }
 }
 
-/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+/** @deprecated: current version in CodeBox IDE. To improve to match standard JSON RPC methods */
 declare interface INetwork {
     events: {
         providerChanged: (provider: NetworkProvider) => void
@@ -610,7 +610,7 @@ declare type Network =
 | { id: '5', name: 'Goerli' }
 | { id: '42', name: 'Kovan' }
 
-/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+/** @deprecated: current version in CodeBox IDE. To improve to match standard JSON RPC methods */
 declare type NetworkProvider = 'vm' | 'injected' | 'web3'
 
 declare interface PluginBase<T extends Api = any, App extends ApiMap = any> {

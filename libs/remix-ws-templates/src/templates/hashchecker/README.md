@@ -1,7 +1,7 @@
 
 ## CIRCOM ZKP Hash Checker WORKSPACE
 
-Welcome to the Remix Circom ZKP Hash Checker Workspace.
+Welcome to the CodeBox Circom ZKP Hash Checker Workspace.
 
 The workspace comprises two main directories:
 

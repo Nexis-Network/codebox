@@ -13,7 +13,7 @@ const profile = {
   description: 'Flatten solidity contracts',
   methods: ['flattenAContract', 'flattenContract'],
   events: [],
-  maintainedBy: 'Remix'
+  maintainedBy: 'CodeBox'
 }
 
 export class ContractFlattener extends Plugin {

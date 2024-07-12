@@ -275,7 +275,7 @@ export const ContractSelection = (props: ContractSelectionProps) => {
       ws.addEventListener('error', console.error);
 
       ws.addEventListener('open', async (event) => {
-        await plugin.call('notification', 'toast', 'Loading scan result in Remix terminal...')
+        await plugin.call('notification', 'toast', 'Loading scan result in CodeBox terminal...')
       })
 
       ws.addEventListener('message', async (event) => {

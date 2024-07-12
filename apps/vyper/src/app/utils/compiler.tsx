@@ -240,8 +240,8 @@ export function toStandardOutput(fileName: string, compilationResult: any): any 
       [fileName]: {
         // If the language used has no contract names, this field should equal to an empty string
         [contractName]: {
-          // The Ethereum Contract ABI. If empty, it is represented as an empty array.
-          // See https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
+          // The Nexis Network Contract ABI. If empty, it is represented as an empty array.
+          // See https://github.com/ethereum/wiki/wiki/Nexis Network-Contract-ABI
           abi: compiledAbi,
           contractName: contractName,
           evm: {

@@ -234,7 +234,7 @@ class AppComponent {
     const compilationDetails = new CompilationDetailsPlugin(appManager)
     const vyperCompilationDetails = new VyperCompilationDetailsPlugin(appManager)
 
-    // ----------------- Remix Guide ----------------------------
+    // ----------------- CodeBox Guide ----------------------------
     const remixGuide = new RemixGuidePlugin(appManager)
 
     // ----------------- ContractFlattener ----------------------------

@@ -14,9 +14,9 @@ export class CustomForkVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-custom-fork',
-        displayName: 'Custom fork - Remix VM',
+        displayName: 'Custom fork - CodeBox VM',
         kind: 'provider',
-        description: 'Custom fork - Remix VM',
+        description: 'Custom fork - CodeBox VM',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },

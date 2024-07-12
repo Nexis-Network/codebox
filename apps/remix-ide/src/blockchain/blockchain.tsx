@@ -715,7 +715,7 @@ export class Blockchain extends Plugin {
   }
 
   /**
-   * This function send a tx only to Remix VM or testnet, will return an error for the mainnet
+   * This function send a tx only to CodeBox VM or testnet, will return an error for the mainnet
    * SHOULD BE TAKEN CAREFULLY!
    *
    * @param {Object} tx    - transaction.
@@ -795,7 +795,7 @@ export class Blockchain extends Plugin {
             if (err) return reject(err)
             if (!address)
               return reject(
-                '"from" is not defined. Please make sure an account is selected. If you are using a public node, it is likely that no account will be provided. In that case, add the public node to your injected provider (type Metamask) and use injected provider in Remix.'
+                '"from" is not defined. Please make sure an account is selected. If you are using a public node, it is likely that no account will be provided. In that case, add the public node to your injected provider (type Metamask) and use injected provider in CodeBox.'
               )
             return resolve(address)
           })

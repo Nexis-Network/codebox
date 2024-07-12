@@ -1,7 +1,7 @@
 {
   "name": "@remix-project/remix-debug",
   "version": "0.5.52",
-  "description": "Tool to debug Ethereum transactions",
+  "description": "Tool to debug Nexis Network transactions",
   "contributors": [
     {
       "name": "Yann Levreau",
@@ -62,7 +62,7 @@
     "type": "git",
     "url": "git+https://github.com/ethereum/remix-project.git"
   },
-  "author": "Remix Team",
+  "author": "CodeBox Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethereum/remix-project/issues"

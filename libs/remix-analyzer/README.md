@@ -1,11 +1,11 @@
-## Remix Analyzer
+## CodeBox Analyzer
 [![npm version](https://badge.fury.io/js/%40remix-project%2Fremix-analyzer.svg)](https://www.npmjs.com/package/@remix-project/remix-analyzer)
 [![npm](https://img.shields.io/npm/dt/@remix-project/remix-analyzer.svg?label=Total%20Downloads)](https://www.npmjs.com/package/@remix-project/remix-analyzer)
 [![npm](https://img.shields.io/npm/dw/@remix-project/remix-analyzer.svg)](https://www.npmjs.com/package/@remix-project/remix-analyzer)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ethereum/remix-project/tree/master/libs/remix-analyzer)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ethereum/remix-project/issues)
 
-`@remix-project/remix-analyzer` is a tool to perform static analysis on Solidity smart contracts to check security vulnerabilities and bad development practices. It works underneath Remix IDE "SOLIDITY STATIC ANALYSIS" plugin which is used to run analysis for a compiled contract according to selected modules.
+`@remix-project/remix-analyzer` is a tool to perform static analysis on Solidity smart contracts to check security vulnerabilities and bad development practices. It works underneath CodeBox IDE "SOLIDITY STATIC ANALYSIS" plugin which is used to run analysis for a compiled contract according to selected modules.
 
 ### Installation
 `@remix-project/remix-analyzer` is an NPM package and can be installed using NPM as:
@@ -56,5 +56,5 @@ Please feel free to open an issue or a pull request.
 In case you want to add some code, do have a look at our contribution guidelines [here](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md). Reach us on [Gitter](https://gitter.im/ethereum/remix) in case of any queries.
 
 ### License
-MIT © 2018-21 Remix Team
+MIT © 2018-21 CodeBox Team
 

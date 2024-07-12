@@ -1,7 +1,7 @@
 {
   "name": "LearnEth",
   "displayName": "LearnEth",
-  "description": "Learn Ethereum with Remix!",
+  "description": "Learn Nexis Network with CodeBox!",
   "documentation": "https://remix-learneth-plugin.readthedocs.io/en/latest/index.html",
   "version": "0.1.0",
   "methods": [
@@ -13,7 +13,7 @@
   "location": "sidePanel",
   "url": "plugins/learneth/index.html",
   "repo": "https://github.com/ethereum/remix-project/tree/master/apps/learneth",
-  "maintainedBy": "Remix",
+  "maintainedBy": "CodeBox",
   "authorContact": "",
   "targets": [
     "remix"

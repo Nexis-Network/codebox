@@ -5,7 +5,7 @@ import * as pathModule from 'path'
 /**
  * returns the absolute path of the given @arg path
  *
- * @param {String} path - relative path (Unix style which is the one used by Remix IDE)
+ * @param {String} path - relative path (Unix style which is the one used by CodeBox IDE)
  * @param {String} sharedFolder - absolute shared path. platform dependent representation.
  * @return {String} platform dependent absolute path (/home/user1/.../... for unix, c:\user\...\... for windows)
  */
@@ -36,7 +36,7 @@ function isSubDirectory (parent: string, child: string) {
  *
  * @param {String} path - absolute platform dependent path
  * @param {String} sharedFolder - absolute shared path. platform dependent representation
- * @return {String} relative path (Unix style which is the one used by Remix IDE)
+ * @return {String} relative path (Unix style which is the one used by CodeBox IDE)
  */
 function relativePath (path: string, sharedFolder: string): string {
   const relative: string = pathModule.relative(sharedFolder, path)
@@ -108,7 +108,7 @@ function resolveDirectory (dir: string, sharedFolder: string): ResolveDirectory 
 /**
  * returns the absolute path of the given @arg url
  *
- * @param {String} url - Remix-IDE URL instance
+ * @param {String} url - CodeBox-IDE URL instance
  * @return {String} extracted domain name from url
  */
 function getDomain (url: string) {

@@ -8,9 +8,9 @@ export class GoerliForkVMProvider extends BasicVMProvider {
     super(
       {
         name: 'vm-goerli-fork',
-        displayName: 'Goerli fork - Remix VM (London)',
+        displayName: 'Goerli fork - CodeBox VM (London)',
         kind: 'provider',
-        description: 'Remix VM (London)',
+        description: 'CodeBox VM (London)',
         methods: ['sendAsync', 'init'],
         version: packageJson.version
       },

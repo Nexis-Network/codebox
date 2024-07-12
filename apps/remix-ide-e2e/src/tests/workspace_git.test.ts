@@ -408,7 +408,7 @@ module.exports = {
       }).pause()
   },
 
-  'Should create Remix default workspace with files #group5': function (browser: NightwatchBrowser) {
+  'Should create CodeBox default workspace with files #group5': function (browser: NightwatchBrowser) {
     browser
       .clickLaunchIcon('filePanel')
       .click('*[data-id="workspacesMenuDropdown"]')

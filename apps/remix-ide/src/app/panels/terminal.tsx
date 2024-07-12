@@ -20,7 +20,7 @@ const profile = {
   name: 'terminal',
   methods: ['log', 'logHtml'],
   events: [],
-  description: 'Remix IDE terminal',
+  description: 'CodeBox IDE terminal',
   version: packageJson.version
 }
 

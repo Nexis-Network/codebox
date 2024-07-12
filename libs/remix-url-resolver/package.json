@@ -20,7 +20,7 @@
     "resolve",
     "import"
   ],
-  "author": "Remix Team",
+  "author": "CodeBox Team",
   "license": "MIT",
   "dependencies": {
     "@erebos/bzz-node": "^0.13.0",

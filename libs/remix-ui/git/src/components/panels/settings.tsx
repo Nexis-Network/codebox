@@ -15,7 +15,7 @@ export const Settings = () => {
   const [githubEmail, setGithubEmail] = React.useState('')
   const intl = useIntl()
 
-  const gitAccessTokenLink = 'https://github.com/settings/tokens/new?scopes=gist,repo&description=Remix%20IDE%20Token'
+  const gitAccessTokenLink = 'https://github.com/settings/tokens/new?scopes=gist,repo&description=CodeBox%20IDE%20Token'
 
   function handleChangeTokenState(e: string): void {
     throw new Error("Function not implemented.");

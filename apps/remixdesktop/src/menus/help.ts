@@ -10,12 +10,12 @@ export default (
     label:  'Help',
     submenu: [
       {
-        label: `About Remix Desktop version ${app.getVersion()}`,
+        label: `About CodeBox Desktop version ${app.getVersion()}`,
         click(item, focusedWindow) {
           dialog.showMessageBox({
-            title: `About Remix`,
+            title: `About CodeBox`,
             message: `Version info`,
-            detail: `Remix Desktop version ${app.getVersion()}`,
+            detail: `CodeBox Desktop version ${app.getVersion()}`,
             buttons: [],
           });
         }

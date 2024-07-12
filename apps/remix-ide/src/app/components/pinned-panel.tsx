@@ -9,7 +9,7 @@ import { PluginViewWrapper } from '@remix-ui/helper'
 const pinnedPanel = {
   name: 'pinnedPanel',
   displayName: 'Pinned Panel',
-  description: 'Remix IDE pinned panel',
+  description: 'CodeBox IDE pinned panel',
   version: packageJson.version,
   methods: ['addView', 'removeView', 'currentFocus', 'pinView', 'unPinView', 'highlight']
 }

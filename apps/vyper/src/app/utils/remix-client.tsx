@@ -165,7 +165,7 @@ export class RemixClient extends PluginClient<any, CustomRemixApi> {
     }
   }
 
-  /** Emit an event to Remix with compilation result */
+  /** Emit an event to CodeBox with compilation result */
   compilationFinish(title: string, content: string, data: CompilationResult) {
     this.client.emit('compilationFinished', title, content, 'vyper', data)
   }

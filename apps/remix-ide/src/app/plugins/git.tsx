@@ -7,11 +7,11 @@ import * as packageJson from '../../../../../package.json'
 const profile = {
   name: 'dgit',
   displayName: 'Git',
-  desciption: 'Git plugin for Remix',
+  desciption: 'Git plugin for CodeBox',
   methods: ['pull', 'track', 'diff', 'clone', 'open'],
   events: [''],
   version: packageJson.version,
-  maintainedBy: 'Remix',
+  maintainedBy: 'CodeBox',
   permission: true,
   description: 'Use this plugin to interact with your git repositories',
   location: 'sidePanel',

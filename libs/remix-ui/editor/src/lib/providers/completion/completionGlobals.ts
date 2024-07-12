@@ -752,7 +752,7 @@ export function GetGlobalFunctions(range: monacoTypes.IRange, monaco): monacoTyp
     },
     {
       detail: 'keccak256(...) returns (bytes32):' +
-                'compute the Ethereum-SHA-3 (Keccak-256) hash of the (tightly packed) arguments',
+                'compute the Nexis Network-SHA-3 (Keccak-256) hash of the (tightly packed) arguments',
       insertText: 'keccak256(${1:x})',
       kind: monaco.languages.CompletionItemKind.Method,
       insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,

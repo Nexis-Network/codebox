@@ -1,4 +1,4 @@
-import "remix_tests.sol"; // this import is automatically injected by Remix.
+import "remix_tests.sol"; // this import is automatically injected by CodeBox.
 
 contract AssertNotEqualTest {
 

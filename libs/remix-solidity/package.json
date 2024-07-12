@@ -50,7 +50,7 @@
     "type": "git",
     "url": "git+https://github.com/ethereum/remix-project.git"
   },
-  "author": "Remix Team",
+  "author": "CodeBox Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethereum/remix-project/issues"

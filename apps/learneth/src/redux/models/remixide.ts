@@ -23,7 +23,7 @@ const Model: ModelType = {
   },
   effects: {
     *connect(_, { put }) {
-      toast.info('connecting to the REMIX IDE')
+      toast.info('connecting to the CodeBox IDE')
 
       yield put({
         type: 'loading/save',

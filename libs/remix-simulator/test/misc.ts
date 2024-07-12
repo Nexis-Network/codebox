@@ -16,7 +16,7 @@ describe('Misc', () => {
       web3['_requestManager'].send({ method: 'web3_clientVersion', params: []})
         .then(version => {
           const remixVersion = require('../package.json').version
-          assert.equal(version, 'Remix Simulator/' + remixVersion)
+          assert.equal(version, 'CodeBox Simulator/' + remixVersion)
         })
         .catch(err => { throw new Error(err) })
     })

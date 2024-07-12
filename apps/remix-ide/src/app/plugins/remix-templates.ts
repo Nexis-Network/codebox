@@ -4,7 +4,7 @@ import * as templateWithContent from '@remix-project/remix-ws-templates'
 const profile = {
   name: 'remix-templates',
   displayName: 'remix-templates',
-  description: 'Remix Templates plugin',
+  description: 'CodeBox Templates plugin',
   methods: ['getTemplate', 'loadTemplateInNewWindow'],
 }
 

@@ -94,7 +94,7 @@ export class TestTabLogic {
         
 pragma solidity >=0.4.22 <0.9.0;
 
-// This import is automatically injected by Remix
+// This import is automatically injected by CodeBox
 import "remix_tests.sol"; 
 
 // This import is required to use custom transaction context

@@ -88,7 +88,7 @@ export class CompilerArtefacts extends Plugin {
   }
 
   /**
-   * Get compilation output for contracts compiled during a session of Remix IDE
+   * Get compilation output for contracts compiled during a session of CodeBox IDE
    * @returns compilatin output
    */
   getAllContractDatas () {
@@ -96,7 +96,7 @@ export class CompilerArtefacts extends Plugin {
   }
 
   /**
-   * filter compilation output for contracts compiled during a session of Remix IDE
+   * filter compilation output for contracts compiled during a session of CodeBox IDE
    * @returns compilatin output
    */
   filterAllContractDatas (filter) {

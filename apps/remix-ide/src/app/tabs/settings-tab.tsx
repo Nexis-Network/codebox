@@ -18,13 +18,13 @@ const profile = {
   methods: ['get', 'updateCopilotChoice', 'getCopilotSetting'],
   events: [],
   icon: 'assets/img/settings.webp',
-  description: 'Remix-IDE settings',
+  description: 'CodeBox-IDE settings',
   kind: 'settings',
   location: 'sidePanel',
   documentation: 'https://remix-ide.readthedocs.io/en/latest/settings.html',
   version: packageJson.version,
   permission: true,
-  maintainedBy: 'Remix'
+  maintainedBy: 'CodeBox'
 }
 
 module.exports = class SettingsTab extends ViewPlugin {

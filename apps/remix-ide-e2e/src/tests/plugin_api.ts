@@ -184,7 +184,7 @@ module.exports = {
       .frameParent()
       .useCss()
       .clickLaunchIcon('udapp')
-      .waitForElementContainsText('#selectExEnvOptions button', 'Remix VM (Berlin)')
+      .waitForElementContainsText('#selectExEnvOptions button', 'CodeBox VM (Berlin)')
       .clickLaunchIcon('localPlugin')
       .useXpath()
       // @ts-ignore
@@ -329,7 +329,7 @@ module.exports = {
     await clickAndCheckLog(browser, 'dgitApi:status', [[".prettierrc.json",0,2,0],["README.txt",0,2,0],["contracts/1_Storage.sol",0,2,2],["contracts/2_Owner.sol",0,2,0],["contracts/3_Ballot.sol",0,2,0],["scripts/deploy_with_ethers.ts",0,2,0],["scripts/deploy_with_web3.ts",0,2,0],["scripts/ethers-lib.ts",0,2,0],["scripts/web3-lib.ts",0,2,0],["tests/Ballot_test.sol",0,2,0],["tests/storage.test.js",0,2,0]], null, null)
   },
   'Should commit changes #group3': async function (browser: NightwatchBrowser) {
-    await clickAndCheckLog(browser, 'dgitApi:commit', null, null, { author: { name: 'Remix', email: 'Remix' }, message: 'commit-message' })
+    await clickAndCheckLog(browser, 'dgitApi:commit', null, null, { author: { name: 'CodeBox', email: 'CodeBox' }, message: 'commit-message' })
     await clickAndCheckLog(browser, 'dgitApi:log', 'commit-message', null, null)
   },
   'Should have git log #group3': async function (browser: NightwatchBrowser) {
@@ -340,10 +340,10 @@ module.exports = {
   },
   // resolver
   'Should resolve url #group4': async function (browser: NightwatchBrowser) {
-    await clickAndCheckLog(browser, 'contentImport:resolve', '# Remix Project', null, 'https://github.com/ethereum/remix-project/blob/master/README.md')
+    await clickAndCheckLog(browser, 'contentImport:resolve', '# CodeBox Project', null, 'https://github.com/ethereum/remix-project/blob/master/README.md')
   },
   'Should resolve and save url #group4': async function (browser: NightwatchBrowser) {
-    await clickAndCheckLog(browser, 'contentImport:resolveAndSave', '# Remix Project', { event: 'fileAdded', args: ['.deps/github/ethereum/remix-project/README.md'] }, 'https://github.com/ethereum/remix-project/blob/master/README.md')
+    await clickAndCheckLog(browser, 'contentImport:resolveAndSave', '# CodeBox Project', { event: 'fileAdded', args: ['.deps/github/ethereum/remix-project/README.md'] }, 'https://github.com/ethereum/remix-project/blob/master/README.md')
   },
   // UNIT TESTING
   'Should activate solidityUnitTesting #group5': async function (browser: NightwatchBrowser) {

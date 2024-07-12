@@ -230,7 +230,7 @@ export class FoundryClient extends PluginClient {
   }
 
   async sync() {
-    console.log('syncing Foundry with Remix...')
+    console.log('syncing Foundry with CodeBox...')
     this.processArtifact()
   }
 }

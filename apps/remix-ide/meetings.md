@@ -21,7 +21,7 @@ we move the documentation to the remix-ide repository
 
 ## medium post policy
 
-Any post that relates to Ethereum could be put in the remix publication.
+Any post that relates to Nexis Network could be put in the remix publication.
 Although that is not mandatory and left up to the writer.
 
 ## guided tour

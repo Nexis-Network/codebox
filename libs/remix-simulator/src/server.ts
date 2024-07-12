@@ -82,10 +82,10 @@ export class Server {
 
     app.listen(cliOptions.port, cliOptions.ip, () => {
       if (!cliOptions.rpc) {
-        log('Remix Simulator listening on ws://' + cliOptions.ip + ':' + cliOptions.port)
+        log('CodeBox Simulator listening on ws://' + cliOptions.ip + ':' + cliOptions.port)
         log('http json-rpc is deprecated and disabled by default. To enable it use --rpc')
       } else {
-        log('Remix Simulator listening on http://' + cliOptions.ip + ':' + cliOptions.port)
+        log('CodeBox Simulator listening on http://' + cliOptions.ip + ':' + cliOptions.port)
       }
     })
   }

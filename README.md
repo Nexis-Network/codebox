@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="CodeBox Logo" width="200"/>
 </p>
-<h3 align="center">Remix Project</h3>
+<h3 align="center">CodeBox Project</h3>
     
 <div align="center">
 
@@ -10,35 +10,35 @@
 [![Documentation Status](https://readthedocs.org/projects/remix-ide/badge/?version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/ethereum/remix-project?style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[![Awesome Remix](https://img.shields.io/badge/Awesome--Remix-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix)
+[![Awesome CodeBox](https://img.shields.io/badge/Awesome--CodeBox-resources-green?logo=awesomelists)](https://github.com/ethereum/awesome-remix)
 ![GitHub](https://img.shields.io/github/license/ethereum/remix-project)
 [![Discord](https://img.shields.io/badge/join-discord-brightgreen.svg?style=flat&logo=discord)](https://discord.gg/mh9hFCKkEq)
 [![X Follow](https://img.shields.io/twitter/follow/ethereumremix?style=flat&logo=x&color=green)](https://x.com/ethereumremix)
 
 </div>
 
-## Remix Project
+## CodeBox Project
 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.  
+**CodeBox Project** is a rich toolset including CodeBox IDE, a comprehensive smart contract development tool. The CodeBox Project also includes CodeBox Plugin Engine and CodeBox Libraries which are low-level tools for wider use.  
 
-## Remix IDE
-**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
+## CodeBox IDE
+**CodeBox IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
 
-**Remix Online IDE**, see: [https://remix.ethereum.org](https://remix.ethereum.org)
+**CodeBox Online IDE**, see: [https://remix.ethereum.org](https://remix.ethereum.org)
 
-:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.
+:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for CodeBox's use on tablets or smartphones or telephones.
 
-**Remix Desktop IDE**, see releases: [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+**CodeBox Desktop IDE**, see releases: [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 
-![Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
+![CodeBox screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 
 
-## Remix libraries 
-Remix libraries are essential for Remix IDE's native plugins. Read more about libraries [here](libs/README.md)
+## CodeBox libraries 
+CodeBox libraries are essential for CodeBox IDE's native plugins. Read more about libraries [here](libs/README.md)
 
 ## Offline Usage
 
-The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download it to use offline.
+The `gh-pages` branch of [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of CodeBox. It contains a ZIP file with the entire build. Download it to use offline.
 
 Note: It contains the latest supported version of Solidity available at the time of the packaging. Other compiler versions can be used online only.
 
@@ -66,11 +66,11 @@ git clone https://github.com/ethereum/remix-project.git
 
 1. Move to project directory: `cd remix-project`
 2. Install dependencies: `yarn install` or simply run `yarn`
-3. Build Remix libraries: `yarn run build:libs`
-4. Build Remix project: `yarn build`
+3. Build CodeBox libraries: `yarn run build:libs`
+4. Build CodeBox project: `yarn build`
 5. Build and run project server: `yarn serve`. Optionally, run `yarn serve:hot` to enable hot module reload for frontend updates.
 
-Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
+Open `http://127.0.0.1:8080` in your browser to load CodeBox IDE locally.
 
 Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
 
@@ -116,7 +116,7 @@ docker-compose pull
 docker-compose up -d
 ```
 
-Then go to http://localhost:8080 and you can use your Remix instance.
+Then go to http://localhost:8080 and you can use your CodeBox instance.
 
 To fetch the docker-compose file without cloning this repo run:
 ```
@@ -148,7 +148,7 @@ For example, to run unit tests of `remix-analyzer`, use `nx test remix-analyzer`
 To run the tests via Nightwatch:
 
  - Install webdrivers for the first time: `yarn install_webdriver`
- - Build & Serve Remix: `yarn serve`
+ - Build & Serve CodeBox: `yarn serve`
 
         
 **NOTE:**
@@ -264,7 +264,7 @@ parameters:
 
 - Official website: https://remix-project.org
 - Official documentation: https://remix-ide.readthedocs.io/en/latest/
-- Curated list of Remix resources: https://github.com/ethereum/awesome-remix
+- Curated list of CodeBox resources: https://github.com/ethereum/awesome-remix
 - Medium: https://medium.com/remix-ide
 - X: https://x.com/ethereumremix
 - Join Discord: https://discord.gg/mh9hFCKkEq

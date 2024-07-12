@@ -51,12 +51,12 @@ const profile = {
   ],
   events: ['setWorkspace', 'workspaceRenamed', 'workspaceDeleted', 'workspaceCreated'],
   icon: 'assets/img/fileManager.webp',
-  description: 'Remix IDE file explorer',
+  description: 'CodeBox IDE file explorer',
   kind: 'fileexplorer',
   location: 'sidePanel',
   documentation: 'https://remix-ide.readthedocs.io/en/latest/file_explorer.html',
   version: packageJson.version,
-  maintainedBy: 'Remix'
+  maintainedBy: 'CodeBox'
 }
 module.exports = class Filepanel extends ViewPlugin {
   constructor(appManager, contentImport) {
